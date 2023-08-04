@@ -1,0 +1,30 @@
+PODS:
+  - MBProgressHUD (1.2.0)
+  - MoExtension (0.0.7)
+  - ReactiveObjC (3.1.1)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - MBProgressHUD
+  - MoExtension
+  - ReactiveObjC
+  - YYKit
+
+SPEC REPOS:
+  trunk:
+    - MBProgressHUD
+    - MoExtension
+    - ReactiveObjC
+    - YYKit
+
+SPEC CHECKSUMS:
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MoExtension: 20adb7e14fea2daed36105b8b901cea7dc5153ae
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: 38b2018c3d9d23adaae402c0563560b77c9b0bcd
+
+COCOAPODS: 1.12.0
