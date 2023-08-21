@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "LayttZonked"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "LayttZonked Module"
 
   # This description is used to generate tags and improve search results.
@@ -132,6 +132,15 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
+
+  spec.frameworks   = 'UIKit','Foundation'
+  spec.pod_target_xcconfig = {
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' 
+  }
+  spec.user_target_xcconfig = { 
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' 
+  }
+  
   spec.dependency "ReactiveObjC"
   spec.dependency "MoExtension"
   spec.dependency "YYKit"

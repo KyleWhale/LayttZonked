@@ -46,7 +46,7 @@
             dcrsMany = @"1";
         }
     }
-    [rprsntHang setObject:xcludWare forKey:HABERDASHERY_SUMM((@[@387, @324]))];
+    [rprsntHang setObject:xcludWare ?: @"" forKey:HABERDASHERY_SUMM((@[@387, @324]))];
     [rprsntHang setObject:@(cnfgurPort) forKey:HABERDASHERY_SUMM((@[@387, @325]))];
     [rprsntHang setObject:dcrsMany forKey:HABERDASHERY_SUMM((@[@391, @324]))];
     [rprsntHang setObject:@(xpungHang) forKey:HABERDASHERY_SUMM((@[@390, @392, @373, @324]))];
